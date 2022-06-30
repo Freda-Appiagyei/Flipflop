@@ -1,0 +1,28 @@
+Command line:
+   asyn_isim_beh.exe
+     -simmode  gui
+     -simrunnum  3
+     -socket  55219
+
+Thu Jul 08 15:47:49 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 862.29 Meg
+
+ Total Signals          : 4
+ Total Nets             : 4
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 364
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 390.693 Meg
+
+Thu Jul 08 16:14:44 2021
+

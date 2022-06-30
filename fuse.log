@@ -1,0 +1,17 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Dell/Documents/dcd/flipflops/asyn_isim_beh.exe" -prj "C:/Users/Dell/Documents/dcd/flipflops/asyn_beh.prj" "work.asyn" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Dell/Documents/dcd/flipflops/asyn.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160016 KB
+Fuse CPU Usage: 202 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity asyn
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:904 - Unable to remove previous simulation file isim/asyn_isim_beh.exe.sim/asyn_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: Access is denied: "isim\asyn_isim_beh.exe.sim\asyn_isim_beh.exe"
+ERROR:Simulator:861 - Failed to link the design
